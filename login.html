@@ -3,46 +3,79 @@
   <title>Tempahan Bas</title>
   
   <style>
-      body {
-      background: url('images/bus.jpg') no-repeat center fixed;
-      background-size: cover;
-      }
-      .header {
-      margin: auto;
-      padding: 20px;
-      text-align: center;
-      color: blanchedalmond;
-      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
-      }
-      .nama {
-      font-size: 15mm;
-      }
-      .alamat {
-      font-size: 5mm;
-      }
-      .menu ul {
-      list-style-type: none;
-      background-color: whitesmoke;
-      opacity: 0.5;
-      overflow: hidden;
-      padding: 0;
-      margin: 0;
-      }
-      .menu li {
-      float: left;
-      }
-      a {
-      text-decoration: none;
-      display: block;
-      color: black;
-      padding: 20px;
-      }
-      a:hover {
-      color: black;
-      font-weight: bold;
-      background-color: cornsilk;
-      }
+    body {
+    background: url('images/bus.jpg') no-repeat center fixed;
+    background-size: cover;
+    }
+    .header {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    }
+    .nama {
+    font-size: 15mm;
+    }
+    .alamat {
+    font-size: 5mm;
+    }
+    .menu ul {
+    list-style-type: none;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    }
+    .menu li {
+    float: left;
+    }
+    a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 20px;
+    }
+    a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: cornsilk;
+    }
+    kandungan {
+    text-align: center;
+    }
+    a {
+    margin: 0;
+    }
+    .table1 {
+    border: solid;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    a {
+    margin: 0;
+    }
+    .p1 {
+    text-align: center;
+    padding-bottom: 20px;
+    }
+    .p2 {
+    text-align: center;
+    padding-bottom: 20px;
+    }
+    .p3 {
+    text-align: center;
+    }
+    .masuk {
+    margin-right: 5px;
+    text-align: center;
+    }
+    
   </style>
   
   <body>
@@ -63,6 +96,29 @@
       </ul>
     </div>
   
+    <!--Content-->
+      <div class="kandungan">
+        <h1>Login</h1>
+      <table class="table1">
+        <tr class="p1">
+          <td>
+            <p>Username <input type="text"></p>
+          </td>
+        </tr>
+        <tr class="p2">
+          <td>
+            <p>Passwords <input type="password"></p>
+          </td>
+        </tr>
+        <tr class="p3">
+          <td>
+            <input type="submit" value="Login" class="masuk">
+            <input type="reset" class="padam">
+          </td>
+        </tr>
+      </table>
+    </div>
+    
   </body>
   </head>
 </html>
